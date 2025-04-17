@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ST7789 Touchscreen")(type "KiCad")(uri "/home/micah/Documents/Hack Club/RetroPie Zero Console/pcb/lib/ST7789 Touchscreen.kicad_sym")(options "")(descr ""))
+  (lib (name "pi_zero_connector")(type "KiCad")(uri "/home/micah/Documents/Hack Club/RetroPie Zero Console/pcb/lib/pi_zero_connector.kicad_sym")(options "")(descr ""))
+  (lib (name "DiodesInc-PAM8302AAD")(type "KiCad")(uri "/home/micah/Documents/Hack Club/RetroPie Zero Console/pcb/lib/DiodesInc-PAM8302AAD.kicad_sym")(options "")(descr ""))
+)
