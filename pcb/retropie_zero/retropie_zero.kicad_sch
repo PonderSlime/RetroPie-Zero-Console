@@ -1387,128 +1387,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -3334,6 +3212,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Assembly\nNote: The button labels are flipped. This means that the buttons labeled \"DPAD\" are actually the buttonpad, and vice versa."
+		(exclude_from_sim no)
+		(at 161.544 121.92 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5b269be3-8164-40ce-bc16-69c34daa02f2")
+	)
 	(text "NOTE: For the best power on/off pop\nperformance, the amplifier should be set in the\nshutdown mode prior to power on/off operation\n(set SD low to power down the amp)."
 		(exclude_from_sim no)
 		(at 182.88 30.48 0)
@@ -3426,14 +3314,6 @@
 	(no_connect
 		(at 72.39 109.22)
 		(uuid "b8d37593-3c25-4ee8-bc79-6863655095de")
-	)
-	(no_connect
-		(at 234.95 205.74)
-		(uuid "cd2a9e0f-afae-4fb5-aeeb-d091c2ea4c37")
-	)
-	(no_connect
-		(at 238.76 218.44)
-		(uuid "d217c624-8029-41ca-b031-8e38c5a5ee13")
 	)
 	(no_connect
 		(at 72.39 86.36)
@@ -4465,7 +4345,7 @@
 			)
 		)
 	)
-	(global_label "R_TRIG"
+	(global_label "L_TRIG"
 		(shape input)
 		(at 85.09 142.24 90)
 		(fields_autoplaced yes)
@@ -4477,7 +4357,7 @@
 		)
 		(uuid "3f0b1ea6-5170-4df4-9395-703ca4df0fd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.09 132.9048 90)
+			(at 85.09 133.1467 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +4939,7 @@
 			)
 		)
 	)
-	(global_label "R_TRIG"
+	(global_label "L_TRIG"
 		(shape input)
 		(at 72.39 52.07 0)
 		(fields_autoplaced yes)
@@ -5071,7 +4951,7 @@
 		)
 		(uuid "f7ed1b2c-1a41-4146-ba4d-ae56ab9cd7a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.7252 52.07 0)
+			(at 81.4833 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,71 +6479,6 @@
 			(project "retropie_zero"
 				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 233.68 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bd865a7-c4b7-443f-ab63-995bc6fc8ec9")
-		(property "Reference" "SPC2"
-			(at 234.315 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Button Spacer"
-			(at 234.315 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lib:button_spacer"
-			(at 233.68 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 233.68 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "998bd5f3-1119-46e4-af01-55cfd443bb7e")
-		)
-		(instances
-			(project "retropie_zero"
-				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
-					(reference "SPC2")
 					(unit 1)
 				)
 			)
@@ -9277,71 +9092,6 @@
 			(project "retropie_zero"
 				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 229.87 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e57838ba-1c75-4bdb-aaea-870db941b5c1")
-		(property "Reference" "SPC1"
-			(at 230.505 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Button Spacer"
-			(at 230.505 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lib:button_spacer"
-			(at 229.87 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 229.87 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d0eb9395-f4ee-4065-a3bc-50dbd7947f91")
-		)
-		(instances
-			(project ""
-				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
-					(reference "SPC1")
 					(unit 1)
 				)
 			)
