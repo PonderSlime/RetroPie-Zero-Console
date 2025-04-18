@@ -3212,7 +3212,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Assembly\nNote: The button labels are flipped. This means that the buttons labeled \"DPAD\" are actually the buttonpad, and vice versa."
+	(text "Assembly\nNote: The button labels are flipped. This means that the buttons labeled \"DPAD\" are actually the buttonpad, and vice versa.\nAlso, the screen wires do need to stretch all the way across the screen's length.\nTrimpot can go on either side\nThe front has the PAM8302 Chip on it. This is the side the buttons should be pressed on, and the screen should be facing"
 		(exclude_from_sim no)
 		(at 161.544 121.92 0)
 		(effects
