@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Adafruit Mini Analog Thumbstick")(type "KiCad")(uri "$(KIPRJMOD)/Adafruit Mini Analog Thumbstick.pretty")(options "")(descr ""))
-)
