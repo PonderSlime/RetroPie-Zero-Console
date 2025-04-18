@@ -734,89 +734,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Adafruit PAM8302-eagle-import:MOUNTINGHOLE2.0"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Adafruit PAM8302:MOUNTINGHOLE_2.0_PLATED"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole\n\nFor #2 screws (0.086\"/2.18mm width, 0.094\"/2.4mm hole) use 2.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MOUNTINGHOLE2.0_1_0"
-				(circle
-					(center 0 0)
-					(radius 1.905)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Adafruit PAM8302-eagle-import:RESISTOR0805_NOOUTLINE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5067,7 +4984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 241.3 68.58 0)
 			(effects
 				(font
@@ -5202,7 +5119,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -5337,7 +5254,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:MSOP8_0.65MM"
+		(property "Footprint" "lib:PAM8302AADCR"
 			(at 210.82 60.96 0)
 			(effects
 				(font
@@ -5555,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 161.29 152.4 0)
 			(effects
 				(font
@@ -5623,7 +5540,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 81.28 194.31 0)
 			(effects
 				(font
@@ -5756,7 +5673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 180.34 78.74 0)
 			(effects
 				(font
@@ -5890,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lib:RPI Zero Footprint"
 			(at 58.42 53.34 0)
 			(effects
 				(font
@@ -6072,7 +5989,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 127 60.96 0)
 			(effects
 				(font
@@ -6115,69 +6032,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit PAM8302-eagle-import:MOUNTINGHOLE2.0")
-		(at 144.78 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40346ffe-8717-4925-b33a-347404224cd1")
-		(property "Reference" "U$11"
-			(at 144.78 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "MOUNTINGHOLE2.0"
-			(at 144.78 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Adafruit PAM8302:MOUNTINGHOLE_2.0_PLATED"
-			(at 144.78 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "retropie_zero"
-				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
-					(reference "U$11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x01")
 		(at 181.61 152.4 0)
 		(unit 1)
@@ -6203,7 +6057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 181.61 152.4 0)
 			(effects
 				(font
@@ -6336,7 +6190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 177.8 50.8 0)
 			(effects
 				(font
@@ -6404,7 +6258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 194.31 195.58 0)
 			(effects
 				(font
@@ -6472,7 +6326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 148.59 195.58 0)
 			(effects
 				(font
@@ -6870,7 +6724,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 77.47 152.4 0)
 			(effects
 				(font
@@ -7006,7 +6860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:TERMBLOCK_1X2-3.5MM"
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 			(at 261.62 55.88 0)
 			(effects
 				(font
@@ -7074,7 +6928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 57.15 214.63 0)
 			(effects
 				(font
@@ -7141,7 +6995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 233.68 68.58 0)
 			(effects
 				(font
@@ -7341,7 +7195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 170.18 181.61 0)
 			(effects
 				(font
@@ -7608,7 +7462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 190.5 60.96 0)
 			(effects
 				(font
@@ -7676,7 +7530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 35.56 194.31 0)
 			(effects
 				(font
@@ -7875,7 +7729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 177.8 60.96 0)
 			(effects
 				(font
@@ -8141,7 +7995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 102.87 222.25 0)
 			(effects
 				(font
@@ -8209,7 +8063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 57.15 152.4 0)
 			(effects
 				(font
@@ -8278,7 +8132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 190.5 50.8 0)
 			(effects
 				(font
@@ -8346,7 +8200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 170.18 215.9 0)
 			(effects
 				(font
@@ -8810,7 +8664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 123.19 222.25 0)
 			(effects
 				(font
@@ -8878,7 +8732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 57.15 180.34 0)
 			(effects
 				(font
@@ -8947,7 +8801,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:TRIMPOT_BOURNS_3303W"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
 			(at 160.02 50.8 0)
 			(effects
 				(font
@@ -8987,69 +8841,6 @@
 			(project "retropie_zero"
 				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
 					(reference "VR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit PAM8302-eagle-import:MOUNTINGHOLE2.0")
-		(at 157.48 17.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4003dec-fdb2-43b4-aedc-e77548abb910")
-		(property "Reference" "U$10"
-			(at 157.48 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "MOUNTINGHOLE2.0"
-			(at 157.48 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Adafruit PAM8302:MOUNTINGHOLE_2.0_PLATED"
-			(at 157.48 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "retropie_zero"
-				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
-					(reference "U$10")
 					(unit 1)
 				)
 			)
@@ -9148,7 +8939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 187.96 66.04 0)
 			(effects
 				(font
@@ -9348,7 +9139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 104.14 104.14 0)
 			(effects
 				(font
@@ -9441,7 +9232,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit PAM8302:_0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 228.6 60.96 0)
 			(effects
 				(font
