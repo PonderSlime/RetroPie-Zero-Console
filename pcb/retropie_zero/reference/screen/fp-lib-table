@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Adafruit_2.2_SPI_240x320")(type "KiCad")(uri "$(KIPRJMOD)/Adafruit_2.2_SPI_240x320.pretty")(options "")(descr ""))
+)

@@ -1,4 +1,4 @@
-25232209619579580
+25233957188347839
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101310,3 +101310,10 @@ Through hole pin header THT 2x20 2.54mm double row
 0
 44
 41
+lib
+button_spacer
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+0
+0

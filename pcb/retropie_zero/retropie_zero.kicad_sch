@@ -1387,6 +1387,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -3270,16 +3392,60 @@
 		(uuid "e3709c38-99a4-43da-bc7a-a6a63572cfc0")
 	)
 	(no_connect
+		(at 72.39 93.98)
+		(uuid "14884e40-7471-444c-8b0f-94f3fb815f25")
+	)
+	(no_connect
 		(at 109.22 111.76)
 		(uuid "1871f61e-0e9a-4d39-af36-63ed83affd67")
+	)
+	(no_connect
+		(at 48.26 67.31)
+		(uuid "3be758ab-3b27-4625-9a08-f878ce067e83")
 	)
 	(no_connect
 		(at 109.22 116.84)
 		(uuid "4d0899ad-28e1-48a7-a0cc-f214ccfd1eb0")
 	)
 	(no_connect
+		(at 48.26 86.36)
+		(uuid "834b5832-087b-469b-a9b2-4718a368316b")
+	)
+	(no_connect
+		(at 48.26 105.41)
+		(uuid "8825789e-7a50-4faf-8978-c6f628b4949d")
+	)
+	(no_connect
 		(at 109.22 104.14)
 		(uuid "9dba002a-47da-48c2-95d0-a5314aac7a56")
+	)
+	(no_connect
+		(at 72.39 105.41)
+		(uuid "9e0e8cb6-fa03-4eef-9149-24edd979e7c6")
+	)
+	(no_connect
+		(at 72.39 109.22)
+		(uuid "b8d37593-3c25-4ee8-bc79-6863655095de")
+	)
+	(no_connect
+		(at 234.95 205.74)
+		(uuid "cd2a9e0f-afae-4fb5-aeeb-d091c2ea4c37")
+	)
+	(no_connect
+		(at 238.76 218.44)
+		(uuid "d217c624-8029-41ca-b031-8e38c5a5ee13")
+	)
+	(no_connect
+		(at 72.39 86.36)
+		(uuid "d32670c3-d39d-4012-9954-a4a40173e1ba")
+	)
+	(no_connect
+		(at 72.39 36.83)
+		(uuid "d85d73a5-8198-4114-be5f-818e727e1950")
+	)
+	(no_connect
+		(at 72.39 101.6)
+		(uuid "e75989a8-86bf-4709-bbaa-d5f798113825")
 	)
 	(wire
 		(pts
@@ -4915,28 +5081,6 @@
 			)
 		)
 	)
-	(global_label "PowerBoost Ground"
-		(shape input)
-		(at 87.63 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb9db58f-3d15-47b8-b832-b99032e79916")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.1811 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DPAD_U"
 		(shape input)
 		(at 64.77 168.91 90)
@@ -4955,6 +5099,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PowerBoost Power"
+		(shape input)
+		(at 118.11 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe3256fa-01de-4f13-916b-0e174db12d2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.5868 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5087,6 +5253,76 @@
 			(project "retropie_zero"
 				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
 					(reference "#U$07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit PAM8302-eagle-import:TERMBLOCK_1X2")
+		(at 123.19 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06df2209-c324-4848-a9e9-ffff263db512")
+		(property "Reference" "X2"
+			(at 120.65 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TERMBLOCK_1X2"
+			(at 120.65 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
+			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7af7041-763d-44c3-83a8-e6e3ec536472")
+		)
+		(pin "2"
+			(uuid "afc3f715-77eb-4378-9f91-00e9a1a7bc44")
+		)
+		(instances
+			(project "retropie_zero"
+				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
+					(reference "X2")
 					(unit 1)
 				)
 			)
@@ -5472,7 +5708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 161.29 152.4 0)
 			(effects
 				(font
@@ -6057,7 +6293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 181.61 152.4 0)
 			(effects
 				(font
@@ -6363,6 +6599,71 @@
 			(project "retropie_zero"
 				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 233.68 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bd865a7-c4b7-443f-ab63-995bc6fc8ec9")
+		(property "Reference" "SPC2"
+			(at 234.315 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Button Spacer"
+			(at 234.315 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:button_spacer"
+			(at 233.68 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 233.68 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "998bd5f3-1119-46e4-af01-55cfd443bb7e")
+		)
+		(instances
+			(project "retropie_zero"
+				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
+					(reference "SPC2")
 					(unit 1)
 				)
 			)
@@ -6724,7 +7025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 77.47 152.4 0)
 			(effects
 				(font
@@ -8063,7 +8364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 57.15 152.4 0)
 			(effects
 				(font
@@ -8976,6 +9277,137 @@
 			(project "retropie_zero"
 				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 229.87 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e57838ba-1c75-4bdb-aaea-870db941b5c1")
+		(property "Reference" "SPC1"
+			(at 230.505 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Button Spacer"
+			(at 230.505 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lib:button_spacer"
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 229.87 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0eb9395-f4ee-4065-a3bc-50dbd7947f91")
+		)
+		(instances
+			(project ""
+				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
+					(reference "SPC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eba0bc91-6cc8-478c-baf5-e9ffa81de440")
+		(property "Reference" "#PWR026"
+			(at 118.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65403b90-9041-4f7b-b20f-9c7cd5634971")
+		)
+		(instances
+			(project "retropie_zero"
+				(path "/f5395351-1217-49d5-a52e-3316d9db527f"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
